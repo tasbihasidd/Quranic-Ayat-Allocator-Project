@@ -1,0 +1,1 @@
+# Quranic-Ayat-Allocator-Project
