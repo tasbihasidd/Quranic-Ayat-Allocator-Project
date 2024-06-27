@@ -181,6 +181,7 @@ def allocate_and_send_email():
 
     # Include the download URL in the response
     download_url = request.host_url + 'download_csv'
+    
     return jsonify({"message": email_result, "quran_completed": quran_completed, "completion_dates": completion_dates, "download_url": download_url})
 
 @app.route('/download_csv')
